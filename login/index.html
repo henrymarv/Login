@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>LOGIN</title>
+
+    <!--(1)HACEMOS REFERENCIA A LOS ARCHIVOS DEL FRAMEWORK-->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <!--(2)HACEMOS REFERENCIA AL USO DE ICONOS DE GOOGLE-->
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--(3)HACEMOS REFERENCIA AL USO RESPONSIVE-->
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!--(4)HACEMOS REFERENCIA AL USO DE NUESTRA HOJA DE ESTILOS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
+</head>
+<body class="bodyLogin">
+    <!--declarar etiqueta correspondiente al contenedor del formulario-->
+    <div class="container">
+        <!--delimitamos limites y margenes-->
+        <div class="row">
+            <!--columnas correspondientes al diseño responsivo de los distintos dispositivos-->
+            <div class="col s12 m12 18 offset-12 loginDiv">
+                <div class="row loginContainer">
+                    <div class="col s12 m6 16">
+                        <div class="col s11 offset-s1">
+                            <img src="img/icon.jpg" class="responsive-img">
+                        </div>
+                    </div>
+                    <div class="col s12 m5 15 offset-11 offset-m1">
+                        <div class="loginTitle">
+                            <h5>Inicia Sesion</h5>
+                        </div>
+                        <div class="row">
+                            <!--DECLARAMOS ETIQUETAS CORRESPONDIENTES A LA ENTRADA DE TEXTO EMAIL-->
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">
+                                    email
+                                </i>
+                                <input class="browser-default" type="text" name="email" id="email" placeholder="Email" autocomplete="off">
+                            </div>
+                            <!--DECLARAMOS ETIQUETAS CORRESPONDIENTES A LA ENTRADA DE TEXTO PASSWORD-->
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">
+                                    key
+                                </i>
+                                <input class="browser-default" type="Password" name="email" id="email" placeholder="Password" autocomplete="off">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <button class="btn col l12 s12 m12 btnLogin green accent-3">
+                                LOGIN
+                            </button>
+                            <div class="col l12 m12 s12 divForget"></div>
+                            <a href="">Olvide mi contraseña</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

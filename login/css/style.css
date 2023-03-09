@@ -1,0 +1,81 @@
+/* DEFINIMOS CLASE DEL COLOR DE FONDO*/
+.bodyLogin {
+
+    background: rgb(31,64,55);
+    background: linear-gradient(90deg, rgba(31,64,55,1) 0%, rgba(141,221,183,1) 100%);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+/* Definimos clase para posicion*/
+.loginDiv {
+
+    top: 20vh;
+    position: relative;
+    background-color: #fdf7f7;
+    width: 100%;
+    border-radius: 40px;
+    height: auto;
+
+}
+
+/*Definimos el area de relleno*/
+.loginContainer {
+
+    padding: 30px;
+
+}
+
+/* Definimos clase y brindamos posicion y anchpo del titulo*/
+.loginTitle {
+
+    width: 100%;
+    text-align: center;
+
+}
+
+/* brindamos estiloa etiqueta h5*/
+.loginTitle h5 {
+
+    font-weight: bold;
+}
+
+/*brindamos estilo al campo de texto*/
+.customInput {
+
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: #eeeeee;
+    border-radius: 100px;
+    padding: 14px!important;
+
+}
+
+.customInput input {
+
+    position: relative;
+    padding-left: 30px;
+    border-style: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.customInput i {
+    
+    position: absolute;
+    color: darkgray;
+    z-index: 999;
+    transition: all 2s ease 0s;
+}
+
+.customInput:hover i {
+    color: teal!important;
+    transition: all 2s ease 0s;
+}
+
+.divForget {
+
+    text-align: center;
+}
